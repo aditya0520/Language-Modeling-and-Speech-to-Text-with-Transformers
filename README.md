@@ -46,8 +46,10 @@ This part focuses on developing a transformer-based sequence-to-sequence model f
 - **Inference Quality**: Successfully transcribed test samples into accurate English text.
 
 ### Notable Features
+- The encoder was trained on FBank or MFCC features, which were passed through CNN-pBLSTM embeddings for enhanced sequence representation.
 - The implementation leverages positional encoding and masking techniques to handle variable-length input sequences.
 - Fine-tuned hyperparameters such as attention heads, model dimensions, and learning rate schedules for optimal performance.
+
 
 ---
 
